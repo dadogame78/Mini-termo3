@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Termo Aleatório</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <h1>Mini Termo</h1>
+    <p>Tente adivinhar a palavra de 5 letras! Você tem 6 tentativas.</p>
+
+    <div class="controls">
+      <div class="fake-input" id="display-guess"></div>
+      <button onclick="chutar()">Enter</button>
+      <button onclick="apagar()">←</button>
+      <button onclick="novoJogo()">Novo Jogo</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="resultado"></div>
+
+    <div class="keyboard" id="keyboard">
+      <!-- linhas do teclado geradas via JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>a
+</body>
+</html>
